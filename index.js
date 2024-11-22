@@ -37,7 +37,7 @@ const postToInsta = async () => {
 
 
 
-const cronInsta = new CronJob("* 14 * * FRI", async () => {
+const cronInsta = new CronJob("0 14 * * FRI", async () => {
     postToInsta();
 })
 
